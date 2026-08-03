@@ -128,6 +128,7 @@
     .cta:hover { filter: brightness(1.07); }
     .cta:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
     .cta-note { font-size: 13px; color: var(--muted); }
+    .badge { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 12.5px; border-radius: 999px; padding: 4px 12px; margin-top: 16px; }
 
     .split { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
     .split .sub { color: var(--muted); font-size: 14.5px; }
@@ -200,6 +201,7 @@
       <a class="lang" href="/ko" hreflang="ko" lang="ko">한국어</a>
     </div>
     <h1>Pay yearly for Typeless,<br>get $15 back in cash</h1>
+    <span class="badge">✓ Deal verified · Aug 3, 2026</span>
     <p class="lede">Buy the Typeless AI dictation annual plan through the link below and I'll send you $15 in cash via PayPal. No coupon codes, no student verification.</p>
 
     <div class="hero-deal">
@@ -305,6 +307,14 @@
     <div class="ledger-row"><span class="k">Void if</span><span class="dots"></span><span class="v">refunded within 30 days</span></div>
   </section>
 
+  <section class="ledger" id="payouts">
+    <h2>Payout tracker</h2>
+    <div class="ledger-row"><span class="k">Deal live since</span><span class="dots"></span><span class="v num">Aug 3, 2026</span></div>
+    <div class="ledger-row"><span class="k">Total paid out</span><span class="dots"></span><span class="v num">$0<small>updated Aug 3, 2026</small></span></div>
+    <div class="ledger-row"><span class="k">Claims in process</span><span class="dots"></span><span class="v num">0</span></div>
+    <div class="ledger-row"><span class="k">Proof</span><span class="dots"></span><span class="v">masked PayPal screenshots posted here after every payout<small>first payouts land 35 days after the first purchase</small></span></div>
+  </section>
+
   <section>
     <h2>FAQ</h2>
     <details>
@@ -324,6 +334,14 @@
       <div class="a">The referral record lives in the browser where you clicked. Paying from a different device or browser breaks the attribution, and I can't send cash back without it. Click the link once more right before paying, in the same browser. If you're unsure, email me before you pay and I'll check.</div>
     </details>
     <details>
+      <summary>What if my purchase doesn't show up in your dashboard?</summary>
+      <div class="a">If you emailed me before paying (or can show you clicked the link right before checkout), I'll verify manually and honor the cash back even if attribution failed on the tracking side. The tracking rules exist to prevent abuse, not to dodge legitimate claims — worst case, we sort it out over email.</div>
+    </details>
+    <details>
+      <summary>Is there a Typeless promo code instead?</summary>
+      <div class="a">No working promo codes exist — Typeless checkout has no coupon field, and the codes listed on coupon aggregator sites are expired or fabricated. See the full breakdown: <a href="/promo-code">Typeless promo codes, tested</a>.</div>
+    </details>
+    <details>
       <summary>What happens to my receipt?</summary>
       <div class="a">It's used only to match your purchase against the referral dashboard, then deleted after payout. Please mask card numbers and anything sensitive.</div>
     </details>
@@ -335,10 +353,12 @@
 
   <footer>
     <p><strong>Disclosure</strong> — This is not an official Typeless page. It's an independent affiliate cash-back offer run by an individual, unaffiliated with Typeless. Purchases through the link above earn the operator a commission, part of which is passed back to you.</p>
-    <p>Prices and policies may change on Typeless's side; this page is updated when they do. Contact: zoon.chang@gmail.com · <a href="/ko" hreflang="ko" lang="ko" style="color:var(--accent);">한국어 버전</a></p>
+    <p>Run by Zoon (<a href="https://github.com/zoon-chang/typeless-payback" rel="noopener" target="_blank" style="color:var(--accent);">this site is open source</a>) — the payout terms above are version-controlled in public.</p>
+    <p>Prices and policies may change on Typeless's side; this page is updated when they do. Contact: zoon.chang@gmail.com · <a href="/promo-code" style="color:var(--accent);">Promo codes, tested</a> · <a href="/ko" hreflang="ko" lang="ko" style="color:var(--accent);">한국어 버전</a></p>
   </footer>
 
 </div>
 
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
