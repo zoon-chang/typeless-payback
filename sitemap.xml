@@ -5,16 +5,16 @@
     <loc>https://typeless-payback.vercel.app/</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://typeless-payback.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://typeless-payback.vercel.app/en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://typeless-payback.vercel.app/en"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://typeless-payback.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://typeless-payback.vercel.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://typeless-payback.vercel.app/"/>
   </url>
   <url>
-    <loc>https://typeless-payback.vercel.app/en</loc>
+    <loc>https://typeless-payback.vercel.app/ko</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://typeless-payback.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://typeless-payback.vercel.app/en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://typeless-payback.vercel.app/en"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://typeless-payback.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://typeless-payback.vercel.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://typeless-payback.vercel.app/"/>
   </url>
 </urlset>
